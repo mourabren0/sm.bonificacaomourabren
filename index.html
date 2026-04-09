@@ -9,7 +9,7 @@
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background: linear-gradient(135deg, #000000, #0A0A0A, #141414);
+      background: linear-gradient(135deg, #000000, #0a0a0a, #141414);
       color: white;
       display: flex;
       justify-content: center;
@@ -30,61 +30,96 @@
       margin-bottom: 20px;
     }
 
-    .social-icons img {
-      width: 28px;
-      height: 28px;
-      filter: invert(1);
-      transition: 0.3s;
-    }
+   .social-icons img {
+  width: 28px;
+  height: 28px;
+  transition: 0.3s;
+  opacity: 0.9;
+}
 
-    .social-icons img:hover {
-      transform: scale(1.2);
-    }
+ .social-icons a:hover img {
+  transform: scale(1.2);
+  opacity: 1;
+}
 
-    img {
-      width: 120px;
-      border-radius: 50%;
-      margin-bottom: 15px;
-    }
+  .perfil {
+  width: 120px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
 
     h1 {
-      margin-bottom: 25px;
+      margin-bottom: 25px;https://www.reddit.com/r/Instagram/comments/1aqhv9l/what_does_it_mean_when_an_instagram_account_looks/?tl=pt-br
     }
 
-    .link {
-      display: block;
-      background: #ffffff;
-      color: #000;
-      padding: 12px;
-      margin: 10px 0;
-      border-radius: 25px;
-      text-decoration: none;
-      font-weight: bold;
-      transition: 0.3s;
-    }
+.link {
+  display: block;
+  background: linear-gradient(135deg, #ffffff, #e6e6e6);
+  color: #000;
+  padding: 14px;
+  margin: 12px 0;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  transition: 0.3s;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+  cursor: pointer;
+}
 
-    .link:hover {
-      background: #cccccc;
-    }
+   .link:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #820AD1, #dcdcdc);
+}
+
+.mercado_pago:hover {
+  background: #00AEEC;
+  color: #28316b;
+}
+
+.nubank:hover {
+  background: #820AD1;
+  color: white;
+}
+
+.youtube:hover {
+  background: #FF0000;
+  color: #00FF00;
+}
   </style>
 </head>
 
 <body>
 
   <div class="container">
-    <img src="https://via.placeholder.com/120" alt="Foto">
+    <img class="perfil" src="https://via.placeholder.com/120" alt="Foto">
     <h1>Mora Breno</h1>
 
 <div class="social-icons">
-    <a href="https://instagram.com/mourabren0"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png"></a>
-    <a href="https://instagram.com/m0urabreno"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png"></a>
-    <a href="https://wa.me/5547988244385"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111624.png"></a>
-    <a href="https://wa.me/5547988244385"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png"></a>
-  </div>
+  <a href="https://instagram.com/seuusuario" target="_blank">
+    <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png">
+  </a>
 
-    <a class="link" href="#">Instagram</a>
-    <a class="link" href="#">WhatsApp</a>
-    <a class="link" href="#">YouTube</a>
+<a href="https://pinterest.com/seuusuario" target="_blank">
+    <img src="https://cdn-icons-png.flaticon.com/512/145/145808.png">
+  </a>
+
+<a href="https://threads.net/@seuusuario" target="_blank">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/d/db/Threads_%28app%29.png">
+</a>
+
+<a href="https://twitch.tv/seuusuario" target="_blank">
+  <img src="https://cdn-icons-png.flaticon.com/512/2111/2111668.png">
+</a>
+
+<a href="https://x.com/seuusuario" target="_blank">
+  <img src="https://cdn-icons-png.flaticon.com/256/124/124021.png">
+</a>
+</div>
+
+    <a class="link mercado_pago" href="#">Mercado Pago</a>
+    <a class="link nubank" href="#">Nubank</a>
+    <a class="link youtube" href="#">YouTube</a>
   </div>
 
 </body>
